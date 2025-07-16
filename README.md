@@ -1,2 +1,77 @@
-# CV
-Personal CV project HTML5
+<!DOCTYPE html>
+<head>
+	<title>CV</title>
+</head>
+<body>
+	<h1>Hasnat Muzaffar</h1>
+<a href="image.png">
+    	<img src="image.png" alt="Image Error" width=200, length=250>
+    </a>
+    <br>
+    <a href="https://www.linkedin.com/in/hasnat-muzaffar-1081aa320?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">  LinkedIn Profile</a>
+   
+	<h2>Projects</h2>
+	<ul>
+		<li>Developed a personal CV/portfolio webpage using HTML5 to showcase education, skills, certifications, and projects in a structured layout.</li>
+		<li>Hotel Management System(A console-based C++ system for hotel booking, billing, and check-in/check-out using file handling)</li>
+		<li>Restaurant Management System(A C++ project using data structures like linked lists and queues to manage restaurant orders and billing)</li>
+
+	</ul>
+
+	<h3>Education</h3>
+	<p>
+	
+		<div>
+		<li>University Of Central Punjab</li> 
+		</div>
+	
+		<div>
+		Bachelor of Science in Computer Science (Current-CGPA: <strong>3.15</strong>)
+		</div>
+		<div>
+ 		<strong>Jan 2022 -Feb 2026</strong>
+ 		</div>
+	</p>
+		<p>
+		<div>
+		<li>Punjab Group Of Colleges</li> 
+		</div>
+		<div>
+		Intermediate(with Grade A+)
+		</div>
+		<div>
+ 		<strong>Jul 2019- Jan 2021</strong>
+ 		</div>
+	</p>
+		<p>
+		<div>
+		<li>The Capital School</li>
+		</div>
+		<div>
+		Matriculation(with Grade A)
+		</div>
+		<div>
+ 		<strong>Jan 2017 -Jan 2019</strong>
+ 		</div>
+	</p>
+	
+
+
+    <h3>Certifications</h3>
+    <p>AI For Everyone – DeepLearning.AI</p>
+    <h3>Technical Skills</h3>
+    <p>
+    	<div>
+    	 <strong>Languages</strong>: HTML5,Python,C++
+    	 </div>
+ 		<strong>Core Concepts</strong>: Programming Fundamentals (PF), OOP, Data Structures & Algorithms (DSA)
+ 	</div>
+ 	<div>
+ 		<strong>Tools/Technologies</strong>: MySQL, File Handling, Console Applications
+ 	</div>
+ 		<strong>Soft Skills</strong>: Problem Solving, Critical Thinking, Communication, Project Management
+
+    </p>
+
+
+</body>
