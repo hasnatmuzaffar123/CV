@@ -1,14 +1,164 @@
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: white(0, 0, 0);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: "Poppins", sans-serif;
+}
+
+.headerStyle {
+    text-align: center;
+    border: 2px solid black;
+    background: linear-gradient(to right, #a1ffce, #faffd1);
+    font-size: 2rem;
+    padding: 15px;
+    width: 100%;
 }
 
 
 
+.headerText {
+    animation-name: topToBottom;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes topToBottom {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.aboutMe {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+
+}
+
+.text {
+    display: grid;
+    align-self: start;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.image {
+    display: grid;
+    align-self: end;
+    margin-left: 300px;
+
+
+}
+
+.image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
 .container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 50px;
+}
+
+.Card {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 20xp;
+    background-color: lightblue;
+    border-radius: 16px;
+
+    color: #000000;
+    transition: all 0.3s ease;
+}
+
+.Card:hover {
+    transform: translateY(-8px);
+    box-shadow: 4px 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+
+
+.cardspaceL {
+    margin-left: 10px;
+}
+
+.cardspaceR {
+    margin-right: 10px;
+}
+
+button {
+    background: linear-gradient(to right, #11998e, #38ef7d);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(to right, #38ef7d, #11998e);
+    transform: translateY(-3px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    color: black;
+}
+
+.footerclass {
+
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
+.ficons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .container {
     height: 5rem;
     border-bottom: 5px solid rgb(0, 0, 0);
     background-color: lightgray;
@@ -19,7 +169,7 @@
 }
 
 .pclass {
-  padding: 0 100px 0 100px;
+    padding: 0 100px 0 100px;
 }
 
 .gridclass {
@@ -57,11 +207,13 @@
 
 .linkclass2 {
     color: white;
-    
+
 }
-.border{
+
+.border {
     border-radius: 10px;
 }
+
 .linkclass2:hover {
     color: lightskyblue;
     cursor: pointer;
@@ -79,10 +231,7 @@
 
 }
 
-/* .imageclass:hover {
-    transform: scale(1.05);
-    transition: 0.3s ease;
-} */
+
 
 .footerclass {
     position: fixed;
@@ -123,4 +272,4 @@
         opacity: 1;
         transform: translateY(0);
     }
-}
+} */

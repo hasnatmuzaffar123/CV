@@ -1,34 +1,43 @@
-body {
-    font-family: Arial, sans-serif;
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
     margin: 0;
     padding: 0;
-    background-color: #f9f9f9;
-    color: #333;
+    box-sizing: border-box;
+    color: white(0, 0, 0);
+    font-family: "Poppins", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-p,
-li,
-div {
+.headerStyle {
     text-align: center;
-    margin: 0.8rem 0;
-}
-
-
-h1,
-h2,
-h3 {
+    border: 2px solid black;
+    background: linear-gradient(to right, #a1ffce, #faffd1);
     font-size: 2rem;
-    font-weight: bold;
-    text-transform: uppercase;
+    padding: 15px;
+    width: 100%;
 }
 
-h4,
-p,
-li,
-div {
-    font-size: 1.2rem;
+.headerText {
+    animation-name: topToBottom;
+    animation-duration: 0.7s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes topToBottom {
+    from {
+        transform: translateY(-100px);
+    }
+
+    to {
+        transform: translateY(0px);
+    }
+}
+
+.details {
+    text-align: center;
+    line-height: 2;
 }
